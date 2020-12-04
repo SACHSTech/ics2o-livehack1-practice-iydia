@@ -1,1 +1,5 @@
-
+print("Welcome to the farenheit to celcius calculator!")
+print(" ")
+faren = float(input("What is the temperature in Farenheit?: "))
+print(" ")
+print("The temperature in Celcius would be " + str(((faren - 32) * 5) / 9) + " degrees Celcius")

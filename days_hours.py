@@ -1,1 +1,7 @@
-
+print("Welcome to the hours to days calculator!")
+print(" ")
+hours = float(input("How many hours do you need to convert?: "))
+print(" ")
+days = (hours // 24)
+extra = (hours % 24)
+print("That will be " + str(days) + " day(s) and " + str(extra) + " extra hour(s).")

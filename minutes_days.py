@@ -1,1 +1,7 @@
-
+print("Enter a number of minutes, and I will calculate the number of days, hours and minutes that it represents")
+print(" ")
+min = float(input("Enter a number of minutes: "))
+days = (min // 1440)
+hours = (min % days)
+min_remainder = (min % 1440)
+print("That converts to " + str(days) + " day(s), " + str(hours) + " hour(s), " + str(min_remainder) + " minute(s).")

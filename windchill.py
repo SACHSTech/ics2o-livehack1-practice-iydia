@@ -1,1 +1,5 @@
-
+print("Enter the temperature(celsius) and wind speed (km/h) and I will calculate the windchill factor")
+temp_cel = float(input("What is the temperature in celcius?: "))
+wind_kmh = float(input("What is the wind speed in km/h?: "))
+wc = (13.12 + (0.6215 * temp_cel) - (11.37 * (wind_kmh ** 0.16)) + (0.3965 * temp_cel * (wind_kmh ** 0.16)))
+print("The windchill factor is approximately " + str(wc) + " degrees celcius.")
